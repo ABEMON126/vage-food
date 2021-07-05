@@ -1,9 +1,25 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+section{
+    margin: 0;
+}
+.hero-section{
+    margin-bottom: 150px;
+}
+.post-section{
+    margin-bottom: 150px;
+}
 h1{
-    font-size: 55px;
+    font-size: 50px;
     line-height: 1.2em;
+}
+h2{
+    font-size: 45px;
+}
+h4{
+    font-size: 24px;
+    font-weight: bolder;
 }
 p{
     font-size: 18px;
@@ -14,17 +30,21 @@ p{
 .full-width{
     width: 50%;
     padding-left: 7%;
+    padding-right: 7%;
 
 }
 .full-width img{
     width: 80%;
+    
 }
-#text-design{
+#person-image{
+    width: 50%;
+    padding-left: 20%;
+}
+.text-design{
     color: tomato;
 }
-.fitrst-text-col{
-    padding-top: 50px;
-}
+
 .button{
     padding:10px 30px;
     border-radius: 25px;
@@ -32,4 +52,40 @@ p{
     font-weight: 700;
     color: white;
     background-image: linear-gradient(#FB9049 , tomato );
+}
+.about-us{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;  
+}
+.latest-update{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%
+ 
+}
+.post-box{
+    padding:10px;
+    width: 25%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 40px rgb(145, 145, 145);
+    border-radius: 10px;
+}
+.post-box img{
+    border-radius: 10px;
+    width:100%
+    
+}
+.icon-ber{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+.icon-box{
+    width:100%
+    
+}
+footer{
+    color: honeydew;
+    background-color: black;
+    text-align: center;
 }
